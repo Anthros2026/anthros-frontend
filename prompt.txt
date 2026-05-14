@@ -1,0 +1,68 @@
+Header - Manter o mesmo, depois trocar as âncoras e o efeito de deslize.
+
+Hero - 
+1. Overline label: UM NOVO PADRÃO EM TECNOLOGIA ------- Sugerir troca de TECNOLOGIA para OUTSOURCING
+2. Headline (Primary Heading / H1): A diferença entre fazer e dominar
+3. Highlighted Headline / Emphasis: tecnologia.
+4. Subheadline / Supporting Text: Unimos engenharia de alto nível e inteligência artificial para transformar ideias complexas em sistemas eficientes.
+-------
+5. Primary CTA (Call To Action): Construir com especialistas
+6. Secondary CTA: Explorar soluções
+-------
+7. Background Grid / Visual Texture:
+8. Layout Container / Spacing System:
+
+___________________________________________________________
+
+
+Dor/Problemas - 
+1. Overline label: O custo invisível da sua engenharia
+2. Headline: Sem execução de alto nível, não existe escala / Crescimento exige mais do que um time técnico comum / O nível da sua engenharia define o limite da sua empresa
+3. Subheadline: Empresas modernas não competem só em produto — competem em capacidade de execução.
+4. Cards: Os cards devem ter cor solida, retire as transparência. Atualize os ícones para fazerem sentido com o novo contexto dos cards,
+quero também que ao por o mouse em cima do card, ele mantenha com aquele efeito, porém quero trocar a cor da linha que aparece abaixo para a cor red.
+	1- Título: Você opera abaixo do seu potencial ---- texto: Processos manuais e retrabalho consomem tempo que deveria estar sendo usado para crescer.
+	2- Título: Você não consegue se diferenciar ---- texto: Sem uso estratégico de IA e engenharia avançada, sua empresa compete no mesmo nível que todos.
+	3- Título: Sua empresa demora para se adaptar ---- texto: Enquanto você ajusta sistemas e processos, concorrentes já estão executando.
+------
+5. Background: Manter a cor Surface com o efeito grid ao fundo.
+
+___________________________________________________________
+
+Vamos eliminar a seção 2 que é a de posicionamento. Exclua somente a seção que foi mencionada, e ajuste o layout das seções para ficarem uma abaixo da outra corretamente.
+
+___________________________________________________________
+
+Usar palavras chaves que estão em alta, ligadas ao universo da inteligência artificial
+
+Fazer uma imagem que pareça conexão cerebral, tipo neurônios. Geralmente é usado para representar bigdata. Contendo as tecnologias e técnicas que nossos desenvolvedores utilizam.
+
+1. Overline label: Nossa abordagem
+2. Headline: Como resolvemos seus desafios
+3. Subheadline: Com domínio técnico e uso estratégico de IA, atuamos direto no que trava sua evolução.
+
+ou
+
+Overline
+Como podemos ajudar
+
+Headline
+Domínio técnico para qualquer desafio
+
+Subheadline
+Nosso time atua com as principais tecnologias e técnicas para tirar projetos do papel e levá-los à produção.
+___________________________________________________________
+
+Seção 4/processos
+
+1. Overline label: Nosso processo
+2. Headline: Como transformamos necessidade em entrega
+3. Subheadline: Um fluxo claro para entender seu cenário, montar o time ideal e executar com velocidade e qualidade.
+
+Passos: 1- Título: Diagnóstico - Texto: Entendemos seu negócio, desafios e stack atual para identificar exatamente onde atuar.
+	2- Título: Planejamento & Time - Texto: Definimos a estratégia, arquitetura e montamos um time sênior sob medida para o seu projeto.
+	3- Título: Imersão & Execução - Texto: Integramos com seu time, absorvemos o contexto e iniciamos o desenvolvimento com alto padrão.
+	4- Título: Entrega contínua - Texto: Atuamos de forma contínua, com suporte, evolução e foco em resultados consistentes.
+
+
+

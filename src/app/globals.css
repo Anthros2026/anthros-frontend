@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+/* ============================================================
+   ANTHROS DESIGN SYSTEM — TAILWIND V4 THEME
+   ============================================================ */
+
+@theme inline {
+  /* ── COLORS ── */
+  --color-canvas: #FAFAFA;
+  --color-surface: #FFFFFF;
+  --color-hover: #F3F3F1;
+  --color-obsidian: #111111;
+  --color-charcoal: #333333;
+  --color-subtle: #737373;
+  --color-border: #E5E5E5;
+  --color-accent: #252525;
+  --color-accent-blue: #5D72E9;
+  --color-accent-purple: #8C62EA;
+  --color-accent-green: #2E907B;
+  --color-accent-amber: #E08A3B;
+  --color-accent-red: #D45454;
+
+  /* ── FONTS ── */
+  --font-sans: var(--font-plus-jakarta), var(--font-inter), sans-serif;
+  --font-display: var(--font-syne), var(--font-plus-jakarta), sans-serif;
+  --font-mono: var(--font-geist-mono), monospace;
+
+  /* ── LETTER SPACING ── */
+  --tracking-tightest: -0.04em;
+  --tracking-tight: -0.02em;
+  --tracking-tech: 0.08em;
+  --tracking-wide: 0.3em;
+
+  /* ── ANIMATIONS ── */
+  --animate-marquee: marquee 35s linear infinite;
+  --animate-pulse-glow: pulseGlow 3s ease-in-out infinite;
+  --animate-border-glow: borderGlow 4s ease-in-out infinite;
+  --animate-dash: dash 30s linear infinite;
+  --animate-float-particle: float-particle 8s ease-in-out infinite;
+  --animate-shimmer: shimmer 1.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+/* ── BASE ── */
+html { scroll-behavior: smooth; overflow-x: hidden; }
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-obsidian);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection { background: #111111; color: #FFFFFF; }
+
+/* ── CUSTOM SCROLLBAR ── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-canvas); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #CCCCCC; }
+
+/* ── TYPOGRAPHY CLASSES ── */
+.text-h1 {
+  font-size: clamp(2.5rem, 7vw, 5.5rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  overflow-wrap: break-word;
+}
+.text-h2 {
+  font-size: clamp(1.75rem, 5vw, 4rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  overflow-wrap: break-word;
+}
+.text-h3 {
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+}
+.text-body {
+  font-size: clamp(1rem, 1.15vw, 1.125rem);
+  line-height: 1.65;
+  font-weight: 400;
+  color: var(--color-subtle);
+}
+
+/* ── TECHNICAL GRID BACKGROUND ── */
+.technical-grid {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.025) 1px, transparent 1px);
+  mask-image: linear-gradient(to bottom, black 30%, transparent 100%);
+}
+
+/* ── SECTION DIVIDER LINE ── */
+.section-line {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--color-border), transparent);
+}
+
+/* ── SYNTAX HIGHLIGHTING (code blocks) ── */
+.token-keyword { color: #8C62EA; }
+.token-variable { color: #5D72E9; }
+.token-string { color: #2E907B; }
+.token-comment { color: #737373; }
+
+/* ── KEYFRAMES ── */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(93, 114, 233, 0.4); }
+  50% { box-shadow: 0 0 20px 4px rgba(93, 114, 233, 0.15); }
+}
+
+@keyframes borderGlow {
+  0%, 100% { border-color: rgba(93, 114, 233, 0.1); }
+  50% { border-color: rgba(93, 114, 233, 0.4); }
+}
+
+@keyframes dash {
+  to { stroke-dashoffset: -100; }
+}
+
+@keyframes float-particle {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-100vh) translateX(20px); opacity: 0; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInScale {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
